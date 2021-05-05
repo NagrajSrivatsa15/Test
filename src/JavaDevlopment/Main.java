@@ -20,6 +20,7 @@ public class Main {
             int temp=array[i];
             array[i]=array[maxIndex-i];
             array[maxIndex-i]=temp;
+            //Pushing it again for checking
         }
     }
 }
